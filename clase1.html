@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+</head>
+<body>
+    <h1>Titulo de mi web</h1>
+    <h2>Bienvenidos a mi web</h2>
+    <p>
+        Lorem Ipsum is simply <strong>text of the printing and</strong> typesetting industry. Lorem Ipsum has been <em>industry's standard</em> industry's standard dummy text ever 
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a <br /> <br />type specimen book. It has survived not only five 
+        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release 
+        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
+        versions of Lorem Ipsum.
+    </p>
+    <h3>Tercer encabezado de la pagina</h3>
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
+        since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five 
+        centuries, but also the leap into electronic typesetting, <span id="resaltado" class="rojo amarillo">remaining essentially unchanged. </span>
+        <blockquote>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </blockquote>
+    </p>
+
+    <hr /> 
+
+    <hr /> 
+
+        <h2>Imagenes en HTML</h2>
+        <img src="images/manzana.jpg" alt="imagen de una manzana" title="manzana roja" width="255px" />
+    
+    <h3>Formulario</h3>
+    <form action="" method="post">
+        <p>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+        </p>
+        <p>
+            <label for="descripcion">Descripción</label>
+            <textarea name="descripcion" id="" cols="20" rows="2"></textarea>
+        </p>
+
+        <input type="radio" name="genero" value="masculino">Masculino<br />
+        <input type="radio" name="genero" value="femenino">Femenino <br />
+        <input type="radio" name="genero" value="indefinido">Indefinido <br />
+        
+        <select name="generodos">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="indefinido">Indefinido</option>
+        </select>
+        <br />
+        <input type="submit" value="Enviar Formulario" />
+    
+    </form>
+    <h3>Listado de Frutas</h3>
+    <ol>
+        <li>Manzana</li>
+        <li>Naranja</li>
+        <li>Pera</li>
+        <li>Sandia</li>
+    </ol>
+    <h3>Listado de Verdurass</h3>
+    <ul>
+        <li>Papa
+            <ul>
+                <li>Blanca</li>
+                <li>Negra</li>
+            </ul>
+        </li>
+        <li>Cebolla
+            <ul>
+                <li>Blanca</li>
+                <li>Roja</li>
+            </ul>
+        </li>
+        <li>Zanahoria</li>
+        <li>Ajo</li>
+    </ul>
+    <h3>Tablas</h3>
+    <table border="1">
+        <tr>
+            <th>Nombres</th>
+            <th>Apellido</th>
+            <th>Pais</th>
+        </tr>
+        <tr>
+            <td>Matias Ezequiel</td>
+            <td>Plaza</td>
+            <td>Argentina</td>
+        </tr>
+        <tr>
+            <td>Mariano Saul</td>
+            <td colspan="2">Paez</td>
+        </tr>
+
+    </table>
+</body>
+</html>
